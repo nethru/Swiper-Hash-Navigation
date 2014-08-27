@@ -10,7 +10,7 @@
  *
  * Licensed under GPL & MIT
  *
- * Released on: August 26, 2014
+ * Released on: August 27, 2014
 */
 (function (Swiper) {
 
@@ -53,7 +53,7 @@
             onSlideChangeStart: function () {
                 updateHash(true);
             },
-            onSwipeReset: function () {
+            onSlideReset: function () {
                 updateHash(true);
             }
         };
